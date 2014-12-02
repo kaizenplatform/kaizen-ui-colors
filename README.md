@@ -1,4 +1,8 @@
 kaizen-ui-colors
 ================
 
-Kaizen Platform UI colors
+Sass variables for Kaizen Platform UI colors
+
+## Requirements
+
+* Sass >= 3.3

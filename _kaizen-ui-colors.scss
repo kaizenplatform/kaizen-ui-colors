@@ -1,0 +1,126 @@
+// Kaizen Platform UI Colors
+// --------------------------------------------------
+
+$color-lava--light:       #fe9392;
+$color-lava:              #fe7877;
+$color-lava--dark:        #e37c92;
+
+$color-tangerine--light:  #fda87e;
+$color-tangerine:         #fd925e;
+$color-tangerine--dark:   #dd8d7e;
+
+$color-pumpkin--light:    #fdc133;
+$color-pumpkin:           #fcb100;
+$color-pumpkin--dark:     #ca9632;
+
+$color-lemon--light:      #f9d94d;
+$color-lemon:             #f7d021;
+$color-lemon--dark:       #ccb44c;
+
+$color-choco--light:      #c5a98d;
+$color-choco:             #b79470;
+$color-choco--dark:       #896f54;
+
+$color-lettuce--light:    #b2f561;
+$color-lettuce:           #9ff23a;
+$color-lettuce--dark:     #8bd35f;
+
+$color-veggie--light:     #57d68d;
+$color-veggie:            #2dcc70;
+$color-veggie--dark:      #2db182;
+
+$color-eco--light:        #88e14e;
+$color-eco:               #6ad922;
+$color-eco--dark:         #5cba47;
+
+$color-mint--lighter:     #b8edbb;
+$color-mint--light:       #a0e7a5;
+$color-mint:              #88e18e;
+$color-mint--dark:        #88d29f;
+$color-mint--darker:      #88c3af;
+
+$color-aqua--light:       #77e0da;
+$color-aqua:              #55d8d1;
+$color-aqua--dark:        #40a29d;
+
+$color-ice--light:        #36ebf9;
+$color-ice:               #04e6f7;
+$color-ice--dark:         #03adb9;
+
+$color-aquamarine--light: #8dffe1;
+$color-aquamarine:        #70ffd9;
+$color-aquamarine--dark : #54bfa3;
+
+$color-water--light:      #d5f3ff;
+$color-water:             #99e1ff;
+$color-water--dark:       #99d6ff;
+
+$color-sky--light:        #77d7ff;
+$color-sky:               #55cdff;
+$color-sky--dark:         #55bbff;
+
+$color-denim--lighter:    #9fcbff;
+$color-denim--light:      #7fbaff;
+$color-denim:             #5fa9ff;
+$color-denim--dark:       #477fbf;
+$color-denim--darker:     #305580;
+
+$color-eggplant--light:   #ceb1ff;
+$color-eggplant:          #c29eff;
+$color-eggplant--dark :   #9277bf;
+
+$color-pink--light:       #fca0ff;
+$color-pink:              #fb88ff;
+$color-pink--dark:        #e48cff;
+
+$color-peach--light:      #fda0b2;
+$color-peach:             #fc889f;
+$color-peach--dark:       #e58cb2;
+
+$color-lychee--light:     #fda0b2;
+$color-lychee:            #fb6a87;
+$color-lychee--dark:      #de6f9e;
+
+$color-raven--light:      #616774;
+$color-raven:             #394151;
+$color-raven--dark:       #2b313d;
+
+$color-slate--lighter:    #949aa7;
+$color-slate--light:      #707889;
+$color-slate:             #4c566c;
+$color-slate--dark:       #394151;
+$color-slate--darker:     #262b36;
+
+$color-charcoal--light:   #8d93a1;
+$color-charcoal:          #707889;
+$color-charcoal--dark:    #545a67;
+
+$color-metal--lighter:    #b4bed5;
+$color-metal--light:      #9ba9c7;
+$color-metal:             #8293b9;
+$color-metal--dark:       #626e8b;
+$color-metal--darker:     #414a5d;
+
+$color-ash--light:        #c3cbdd;
+$color-ash:               #b4bed5;
+$color-ash--dark:         #878fa0;
+
+$color-lithium--light:    #e2e6ef;
+$color-lithium:           #dbe0eb;
+$color-lithium--dark:     #bbbee1;
+
+$color-mochi--lighter:    #f9fafd;
+$color-mochi--light:      #f7f9fd;
+$color-mochi:             #f2f6fa;
+$color-mochi--dark:       #ebedef;
+$color-mochi--darker:     #e1e3ef;
+
+// aliases
+$color-link:          $color-denim;
+$color-text:          $color-slate;
+$color-disabled-text: $color-ash;
+
+// array of color names
+$colors:
+  lava, tangerine,pumpkin, lemon, choco, lettuce, veggie, eco, mint, 'aqua', ice, 'aquamarine', water, sky, denim, eggplant, 'pink',
+  peach, lychee, raven, slate, charcoal, metal, ash, lithium, mochi;
