@@ -1,1 +1,1 @@
-git subtree add --prefix preview/ gh-pages origin
+git subtree push --prefix preview/ gh-pages master
