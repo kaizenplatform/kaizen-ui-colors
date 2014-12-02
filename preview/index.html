@@ -11,76 +11,91 @@
   <div class="container">
     <h1>Kaizen Platform UI Colors</h1>
     <div class="colorgroup">
+      <h2>Lava</h2>
       <div class="lava--light"></div>
       <div class="lava"></div>
       <div class="lava--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Tangerine</h2>
       <div class="tangerine--light"></div>
       <div class="tangerine"></div>
       <div class="tangerine--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Pumpkin</h2>
       <div class="pumpkin--light"></div>
       <div class="pumpkin"></div>
       <div class="pumpkin--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Lemon</h2>
       <div class="lemon--light"></div>
       <div class="lemon"></div>
       <div class="lemon--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Choco</h2>
       <div class="choco--light"></div>
       <div class="choco"></div>
       <div class="choco--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Lettuce</h2>
       <div class="lettuce--light"></div>
       <div class="lettuce"></div>
       <div class="lettuce--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Veggie</h2>
       <div class="veggie--light"></div>
       <div class="veggie"></div>
       <div class="veggie--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Eco</h2>
       <div class="eco--light"></div>
       <div class="eco"></div>
       <div class="eco--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Mint</h2>
       <div class="mint--light"></div>
       <div class="mint"></div>
       <div class="mint--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Aqua</h2>
       <div class="aqua--light"></div>
       <div class="aqua"></div>
       <div class="aqua--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Ice</h2>
       <div class="ice--light"></div>
       <div class="ice"></div>
       <div class="ice--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Aquamarine</h2>
       <div class="aquamarine--light"></div>
       <div class="aquamarine"></div>
       <div class="aquamarine--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Water</h2>
       <div class="water--light"></div>
       <div class="water"></div>
       <div class="water--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Sky</h2>
       <div class="sky--light"></div>
       <div class="sky"></div>
       <div class="sky--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Denim</h2>
       <div class="denim--lighter"></div>
       <div class="denim--light"></div>
       <div class="denim"></div>
@@ -88,31 +103,37 @@
       <div class="denim--darker"></div>
     </div>
     <div class="colorgroup">
+      <h2>Eggplant</h2>
       <div class="eggplant--light"></div>
       <div class="eggplant"></div>
       <div class="eggplant--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Pink</h2>
       <div class="pink--light"></div>
       <div class="pink"></div>
       <div class="pink--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Peach</h2>
       <div class="peach--light"></div>
       <div class="peach"></div>
       <div class="peach--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Lychee</h2>
       <div class="lychee--light"></div>
       <div class="lychee"></div>
       <div class="lychee--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Raven</h2>
       <div class="raven--light"></div>
       <div class="raven"></div>
       <div class="raven--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Slate</h2>
       <div class="slate--lighter"></div>
       <div class="slate--light"></div>
       <div class="slate"></div>
@@ -120,11 +141,13 @@
       <div class="slate--darker"></div>
     </div>
     <div class="colorgroup">
+      <h2>Charcoal</h2>
       <div class="charcoal--light"></div>
       <div class="charcoal"></div>
       <div class="charcoal--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Metal</h2>
       <div class="metal--lighter"></div>
       <div class="metal--light"></div>
       <div class="metal"></div>
@@ -132,16 +155,19 @@
       <div class="metal--darker"></div>
     </div>
     <div class="colorgroup">
+      <h2>Ash</h2>
       <div class="ash--light"></div>
       <div class="ash"></div>
       <div class="ash--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Lithium</h2>
       <div class="lithium--light"></div>
       <div class="lithium"></div>
       <div class="lithium--dark"></div>
     </div>
     <div class="colorgroup">
+      <h2>Mochi</h2>
       <div class="mochi--lighter"></div>
       <div class="mochi--light"></div>
       <div class="mochi"></div>
@@ -151,7 +177,7 @@
   </div>
   <script>
   $(function(){
-    $('.colorgroup').children().each(function() {
+    $('.colorgroup').children('div').each(function() {
       var bgColor = $(this).css('background-color').toString();
       var className = $(this).attr('class');
       $(this).append('$color-' + className + '<br>' + rgb2hex(bgColor));
