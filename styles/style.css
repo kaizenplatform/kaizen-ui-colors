@@ -1,0 +1,187 @@
+body { color: #333; }
+
+.container { margin-right: auto; margin-left: auto; }
+
+@media (min-width: 768px) { .container { width: 750px; } }
+@media (min-width: 992px) { .container { width: 970px; } }
+@media (min-width: 1200px) { .container { width: 1170px; } }
+.lava--light, .lava, .lava--dark, .tangerine--light, .tangerine, .tangerine--dark, .pumpkin--light, .pumpkin, .pumpkin--dark, .lemon--light, .lemon, .lemon--dark, .choco--light, .choco, .choco--dark, .lettuce--light, .lettuce, .lettuce--dark, .veggie--light, .veggie, .veggie--dark, .eco--light, .eco, .eco--dark, .mint--lighter, .mint--light, .mint, .mint--dark, .mint--darker, .aqua--light, .aqua, .aqua--dark, .ice--light, .ice, .ice--dark, .aquamarine--light, .aquamarine, .aquamarine--dark, .water--light, .water, .water--dark, .sky--light, .sky, .sky--dark, .denim--lighter, .denim--light, .denim, .denim--dark, .denim--darker, .eggplant--light, .eggplant, .eggplant--dark, .pink--light, .pink, .pink--dark, .peach--light, .peach, .peach--dark, .lychee--light, .lychee, .lychee--dark, .raven--light, .raven, .raven--dark, .slate--lighter, .slate--light, .slate, .slate--dark, .slate--darker, .charcoal--light, .charcoal, .charcoal--dark, .metal--lighter, .metal--light, .metal, .metal--dark, .metal--darker, .ash--light, .ash, .ash--dark, .lithium--light, .lithium, .lithium--dark, .mochi--lighter, .mochi--light, .mochi, .mochi--dark, .mochi--darker { height: 30px; margin-bottom: 5px; padding: 10px; font-size: 14px; font-family: Consolas, Menlo, Courier, monospace; color: #000; }
+
+.lava--light { background-color: #fe9392; }
+
+.lava { background-color: #fe7877; height: 120px; }
+
+.lava--dark { background-color: #e37c92; }
+
+.tangerine--light { background-color: #fda87e; }
+
+.tangerine { background-color: #fd925e; height: 120px; }
+
+.tangerine--dark { background-color: #dd8d7e; }
+
+.pumpkin--light { background-color: #fdc133; }
+
+.pumpkin { background-color: #fcb100; height: 120px; }
+
+.pumpkin--dark { background-color: #ca9632; }
+
+.lemon--light { background-color: #f9d94d; }
+
+.lemon { background-color: #f7d021; height: 120px; }
+
+.lemon--dark { background-color: #ccb44c; }
+
+.choco--light { background-color: #c5a98d; }
+
+.choco { background-color: #b79470; height: 120px; }
+
+.choco--dark { background-color: #896f54; }
+
+.lettuce--light { background-color: #b2f561; }
+
+.lettuce { background-color: #9ff23a; height: 120px; }
+
+.lettuce--dark { background-color: #8bd35f; }
+
+.veggie--light { background-color: #57d68d; }
+
+.veggie { background-color: #2dcc70; height: 120px; }
+
+.veggie--dark { background-color: #2db182; }
+
+.eco--light { background-color: #88e14e; }
+
+.eco { background-color: #6ad922; height: 120px; }
+
+.eco--dark { background-color: #5cba47; }
+
+.mint--lighter { background-color: #b8edbb; }
+
+.mint--light { background-color: #a0e7a5; }
+
+.mint { background-color: #88e18e; height: 120px; }
+
+.mint--dark { background-color: #88d29f; }
+
+.mint--darker { background-color: #88c3af; }
+
+.aqua--light { background-color: #77e0da; }
+
+.aqua { background-color: #55d8d1; height: 120px; }
+
+.aqua--dark { background-color: #40a29d; }
+
+.ice--light { background-color: #36ebf9; }
+
+.ice { background-color: #04e6f7; height: 120px; }
+
+.ice--dark { background-color: #03adb9; }
+
+.aquamarine--light { background-color: #8dffe1; }
+
+.aquamarine { background-color: #70ffd9; height: 120px; }
+
+.aquamarine--dark { background-color: #54bfa3; }
+
+.water--light { background-color: #d5f3ff; }
+
+.water { background-color: #99e1ff; height: 120px; }
+
+.water--dark { background-color: #99d6ff; }
+
+.sky--light { background-color: #77d7ff; }
+
+.sky { background-color: #55cdff; height: 120px; }
+
+.sky--dark { background-color: #55bbff; }
+
+.denim--lighter { background-color: #9fcbff; }
+
+.denim--light { background-color: #7fbaff; }
+
+.denim { background-color: #5fa9ff; height: 120px; }
+
+.denim--dark { background-color: #477fbf; }
+
+.denim--darker { background-color: #305580; }
+
+.eggplant--light { background-color: #ceb1ff; }
+
+.eggplant { background-color: #c29eff; height: 120px; }
+
+.eggplant--dark { background-color: #9277bf; }
+
+.pink--light { background-color: #fca0ff; }
+
+.pink { background-color: #fb88ff; height: 120px; }
+
+.pink--dark { background-color: #e48cff; }
+
+.peach--light { background-color: #fda0b2; }
+
+.peach { background-color: #fc889f; height: 120px; }
+
+.peach--dark { background-color: #e58cb2; }
+
+.lychee--light { background-color: #fda0b2; }
+
+.lychee { background-color: #fb6a87; height: 120px; }
+
+.lychee--dark { background-color: #de6f9e; }
+
+.raven--light { background-color: #616774; }
+
+.raven { background-color: #394151; height: 120px; }
+
+.raven--dark { background-color: #2b313d; }
+
+.slate--lighter { background-color: #949aa7; }
+
+.slate--light { background-color: #707889; }
+
+.slate { background-color: #4c566c; height: 120px; }
+
+.slate--dark { background-color: #394151; }
+
+.slate--darker { background-color: #262b36; }
+
+.charcoal--light { background-color: #8d93a1; }
+
+.charcoal { background-color: #707889; height: 120px; }
+
+.charcoal--dark { background-color: #545a67; }
+
+.metal--lighter { background-color: #b4bed5; }
+
+.metal--light { background-color: #9ba9c7; }
+
+.metal { background-color: #8293b9; height: 120px; }
+
+.metal--dark { background-color: #626e8b; }
+
+.metal--darker { background-color: #414a5d; }
+
+.ash--light { background-color: #c3cbdd; }
+
+.ash { background-color: #b4bed5; height: 120px; }
+
+.ash--dark { background-color: #878fa0; }
+
+.lithium--light { background-color: #e2e6ef; }
+
+.lithium { background-color: #dbe0eb; height: 120px; }
+
+.lithium--dark { background-color: #bbbee1; }
+
+.mochi--lighter { background-color: #f9fafd; }
+
+.mochi--light { background-color: #f7f9fd; }
+
+.mochi { background-color: #f2f6fa; height: 120px; }
+
+.mochi--dark { background-color: #ebedef; }
+
+.mochi--darker { background-color: #e1e3ef; }
+
+.colorgroup { margin: 30px 20px 30px 0; width: 210px; display: inline-block; vertical-align: top; }
+.colorgroup div:last-child { margin-bottom: 0; }
