@@ -1,0 +1,28 @@
+machine:
+  timezone: UTC
+  ruby:
+    version: 2.0.0-p481
+  pre:
+    - "echo 'Host *' >> $HOME/.ssh/config"
+    - "echo 'ForwardAgent yes' >> $HOME/.ssh/config"
+    - "git config --global user.name 'Circle CI'"
+    - "git config --global user.email 'dev-team@kaizenplatform.com'"
+general:
+  artifacts:
+    - "preview"
+dependencies:
+  override:
+    - gem install --no-rdoc --no-ri sass
+database:
+  override:
+compile:
+  override:
+    - ./scripts/convert.sh
+test:
+  override:
+    - exit 0
+deployment:
+  main:
+    branch: ['master']
+    commands:
+      - ./scripts/deploy.sh
