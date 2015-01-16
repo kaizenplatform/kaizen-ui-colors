@@ -22,3 +22,9 @@ gem 'compass-kaizen-ui-colors', git: 'git@github.com:kaizenplatform/kaizen-ui-co
 ```sass
 @import "kaizen-ui-colors"
 ```
+
+## Install with bower
+
+```
+bower install git@github.com:kaizenplatform/kaizen-ui-colors.git
+```
