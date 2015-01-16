@@ -116,10 +116,11 @@ $color-mochi--dark:       #ebedef;
 $color-mochi--darker:     #e1e3ef;
 
 // aliases
-$color-link:          $color-denim;
-$color-text:          $color-slate;
-$color-disabled-text: $color-ash;
-$color-border:        $color-lithium--light;
+$color-link:          $color-denim !default;
+$color-text:          $color-slate !default;
+$color-disabled-text: $color-ash !default;
+$color-muted:         $color-ash !default;
+$color-border:        $color-lithium--light !default;
 
 // array of color names
 $colors:
