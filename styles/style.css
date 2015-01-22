@@ -5,13 +5,17 @@ body { color: #333; }
 @media (min-width: 768px) { .container { width: 750px; } }
 @media (min-width: 992px) { .container { width: 970px; } }
 @media (min-width: 1200px) { .container { width: 1170px; } }
-.lava--light, .lava, .lava--dark, .tangerine--light, .tangerine, .tangerine--dark, .pumpkin--light, .pumpkin, .pumpkin--dark, .lemon--light, .lemon, .lemon--dark, .choco--light, .choco, .choco--dark, .lettuce--light, .lettuce, .lettuce--dark, .veggie--light, .veggie, .veggie--dark, .eco--light, .eco, .eco--dark, .mint--lighter, .mint--light, .mint, .mint--dark, .mint--darker, .aqua--light, .aqua, .aqua--dark, .ice--light, .ice, .ice--dark, .aquamarine--light, .aquamarine, .aquamarine--dark, .water--light, .water, .water--dark, .sky--light, .sky, .sky--dark, .denim--lighter, .denim--light, .denim, .denim--dark, .denim--darker, .eggplant--light, .eggplant, .eggplant--dark, .pink--light, .pink, .pink--dark, .peach--light, .peach, .peach--dark, .lychee--light, .lychee, .lychee--dark, .raven--light, .raven, .raven--dark, .slate--lighter, .slate--light, .slate, .slate--dark, .slate--darker, .charcoal--light, .charcoal, .charcoal--dark, .metal--lighter, .metal--light, .metal, .metal--dark, .metal--darker, .ash--light, .ash, .ash--dark, .lithium--light, .lithium, .lithium--dark, .mochi--lighter, .mochi--light, .mochi, .mochi--dark, .mochi--darker { height: 30px; margin-bottom: 5px; padding: 10px; font-size: 14px; font-family: Consolas, Menlo, Courier, monospace; color: #000; }
+.lava--lighter, .lava--light, .lava, .lava--dark, .lava--darker, .tangerine--light, .tangerine, .tangerine--dark, .pumpkin--light, .pumpkin, .pumpkin--dark, .lemon--light, .lemon, .lemon--dark, .choco--light, .choco, .choco--dark, .lettuce--light, .lettuce, .lettuce--dark, .veggie--light, .veggie, .veggie--dark, .eco--light, .eco, .eco--dark, .mint--lighter, .mint--light, .mint, .mint--dark, .mint--darker, .aqua--light, .aqua, .aqua--dark, .ice--light, .ice, .ice--dark, .aquamarine--light, .aquamarine, .aquamarine--dark, .water--light, .water, .water--dark, .sky--light, .sky, .sky--dark, .denim--lighter, .denim--light, .denim, .denim--dark, .denim--darker, .eggplant--light, .eggplant, .eggplant--dark, .pink--light, .pink, .pink--dark, .peach--light, .peach, .peach--dark, .lychee--light, .lychee, .lychee--dark, .raven--light, .raven, .raven--dark, .slate--lighter, .slate--light, .slate, .slate--dark, .slate--darker, .charcoal--light, .charcoal, .charcoal--dark, .metal--lighter, .metal--light, .metal, .metal--dark, .metal--darker, .ash--light, .ash, .ash--dark, .lithium--light, .lithium, .lithium--dark, .mochi--lighter, .mochi--light, .mochi, .mochi--dark, .mochi--darker { height: 30px; margin-bottom: 5px; padding: 10px; font-size: 14px; font-family: Consolas, Menlo, Courier, monospace; color: #000; }
+
+.lava--lighter { background-color: #feaead; }
 
 .lava--light { background-color: #fe9392; }
 
 .lava { background-color: #fe7877; height: 120px; }
 
 .lava--dark { background-color: #e37c92; }
+
+.lava--darker { background-color: #b15453; }
 
 .tangerine--light { background-color: #fda87e; }
 
