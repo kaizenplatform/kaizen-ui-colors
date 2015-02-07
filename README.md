@@ -9,22 +9,30 @@ Sass Variables for Kaizen Platform UI Colors
 
 http://kaizenplatform.github.io/kaizen-ui-colors
 
-## Use from Compass Project
+## Installation
 
-### Gemfile
+### Use from Compass Project
+
+#### Gemfile
 
 ```rb
 gem 'compass-kaizen-ui-colors', git: 'git@github.com:kaizenplatform/kaizen-ui-colors.git'
 ```
 
-### In your SASS file
+#### In your SASS file
 
 ```sass
 @import "kaizen-ui-colors"
 ```
 
-## Install with bower
+### Install with bower
 
 ```
 bower install git@github.com:kaizenplatform/kaizen-ui-colors.git
+```
+
+### Install with npm
+
+```
+npm install kaizenplatform/kaizen-ui-colors
 ```
