@@ -75,7 +75,7 @@ $color-pink--light:       #fca0ff;
 $color-pink:              #fb88ff;
 $color-pink--dark:        #e48cff;
 
-$color-peach--light:      #fda0b2;
+$color-peach--light:      #fdb8c5;
 $color-peach:             #fc889f;
 $color-peach--dark:       #e58cb2;
 
@@ -125,6 +125,15 @@ $color-muted:         $color-ash !default;
 $color-border:        $color-lithium--light !default;
 
 // array of color names
-$colors:
+$color-names:
   lava, tangerine, pumpkin, lemon, choco, lettuce, veggie, eco, mint, 'aqua', ice, 'aquamarine', water, sky, denim,
   eggplant, 'pink', peach, lychee, raven, slate, charcoal, metal, ash, lithium, mochi;
+
+// gray palette
+$gray-color-names: slate--dark, slate, slate--light, metal, ash, lithium;
+
+// primary palette
+$primary-color-names: mochi, mint, slate, denim, lava, eggplant--light;
+
+// secondary palette
+$secondary-color-names: lychee, pumpkin, lemon, veggie, lettuce, choco, 'aqua', ice, sky, 'pink', peach;

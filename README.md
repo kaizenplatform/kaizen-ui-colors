@@ -36,3 +36,11 @@ bower install git@github.com:kaizenplatform/kaizen-ui-colors.git
 ```
 npm install kaizenplatform/kaizen-ui-colors
 ```
+
+## Development
+
+### Compile & show preview
+
+```
+npm run compile
+```
