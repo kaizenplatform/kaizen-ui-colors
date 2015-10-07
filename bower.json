@@ -13,6 +13,7 @@
   "private": true,
   "ignore": [
     "/**/*",
-    "!_kaizen-ui-colors.scss"
+    "!_kaizen-ui-colors.scss",
+    "!kaizen-ui-colors.json"
   ]
 }
