@@ -1,6 +1,6 @@
 {
   "name": "kaizen-ui-colors",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Sass variables for Kaizen Platform UI colors",
   "main": "_kaizen_ui_colors.scss",
   "scripts": {
