@@ -2,7 +2,7 @@
   "name": "kaizen-ui-colors",
   "version": "0.1.8",
   "description": "Sass variables for Kaizen Platform UI colors",
-  "main": "_kaizen_ui_colors.scss",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "./scripts/convert.sh && open preview/index.html"

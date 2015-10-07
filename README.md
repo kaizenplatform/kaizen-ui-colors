@@ -44,3 +44,21 @@ npm install kaizenplatform/kaizen-ui-colors
 ```
 npm run compile
 ```
+
+## Use JSON Data in Node.js
+
+First, install with npm.
+
+```
+npm install kaizenplatform/kaizen-ui-colors
+```
+
+Then, you can load the JSON data.
+
+```javascript
+var json = require('kaizen-ui-colors');
+```
+
+```javascript
+import json from 'kaizen-ui-colors';
+```
