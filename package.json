@@ -2,22 +2,36 @@
   "name": "kaizen-ui-colors",
   "version": "0.1.8",
   "description": "Sass variables for Kaizen Platform UI colors",
+  "keywords": [
+    "sass",
+    "kaizen-ui"
+  ],
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "./scripts/convert.sh && open preview/index.html"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=4.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaizenplatform/kaizen-ui-colors.git"
+    "url": "git@github.com:kaizenplatform/kaizen-ui-colors.git"
   },
-  "keywords": [
-    "kaizen-ui"
-  ],
   "author": "Kaizen Platform <dev-team@kaizenplatform.com>",
+  "contributors": [
+    {
+      "name": "jmblog",
+      "email": "yjimbo@gmail.com"
+    },
+    {
+      "name": "t32k",
+      "email": "ijok.ijok@gmail.com"
+    }
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kaizenplatform/kaizen-ui-colors/issues"
   },
-  "homepage": "https://github.com/kaizenplatform/kaizen-ui-colors",
-  "private": true
+  "homepage": "https://github.com/kaizenplatform/kaizen-ui-colors#readme"
 }
