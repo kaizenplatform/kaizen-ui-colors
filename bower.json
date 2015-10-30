@@ -10,7 +10,6 @@
   "keywords": [
     "kaizen-ui"
   ],
-  "private": true,
   "ignore": [
     "/**/*",
     "!_kaizen-ui-colors.scss",
