@@ -63,7 +63,7 @@ import json from 'kaizen-ui-colors';
 
 ### colors
 
-`colors` module is a **typed** and **camelCased** color schema.
+`colors` module is a typed color schema.
 
 You can import it and use as below:
 
