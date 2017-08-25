@@ -1,1 +1,10 @@
 .sass-cache
+node_modules
+package-lock.json
+
+# generated files
+lib.js
+lib.d.ts
+src/*.ts
+src/*.js
+src/*.d.ts
