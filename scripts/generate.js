@@ -13,14 +13,16 @@ const getColorsJSON = () => {
 
 const generateColors = (colorsJSON, outPath) => {
   const formatted = Object.keys(colorsJSON.nameToHex).reduce((map, key) => {
-    const colorName = camelcase(key.replace('color-', ''));
+    const colorHex = colorsJSON.nameToHex[key];
+    const colorName = key.replace('color-', '').replace('--', '_').concat('__', colorHex.replace('#', ''));
+
     map[colorName] = colorsJSON.nameToHex[key];
     return map;
   }, {});
   fs.writeFileSync(
     outPath,
     '// DO NOT EDIT! This code is generated automatically.\n' +
-      `export const colors = ${JSON.stringify(formatted, null, 2)};`,
+    `export const colors = ${JSON.stringify(formatted, null, 2)};`,
     'utf-8'
   );
 };
