@@ -70,5 +70,5 @@ You can import it and use as below:
 ```ts
 import { colors } from 'kaizen-ui-colors/lib';
 
-console.log(colors.lavaLighter);
+const color: string = colors.lava_lighter__febebe; // `name_modifier__hex`
 ```
