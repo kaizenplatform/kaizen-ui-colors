@@ -1,6 +1,6 @@
 {
   "name": "kaizen-ui-colors",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Sass variables for Kaizen Platform UI colors",
   "keywords": [
     "sass",
