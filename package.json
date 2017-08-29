@@ -37,7 +37,6 @@
   },
   "homepage": "https://github.com/kaizenplatform/kaizen-ui-colors#readme",
   "devDependencies": {
-    "camelcase": "^4.1.0",
     "typescript": "^2.4.2"
   }
 }

@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const camelcase = require('camelcase');
 
 const getColorsJSON = () => {
   return JSON.parse(
