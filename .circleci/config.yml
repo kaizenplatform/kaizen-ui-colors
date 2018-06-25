@@ -1,6 +1,8 @@
 version: 2
 jobs:
   build:
+    branches:
+      only: master
     working_directory: ~/kaizenplatform/kaizen-ui-colors
     docker:
     - image: circleci/ruby:2-node
@@ -26,9 +28,15 @@ jobs:
     - run: exit 0
     - store_artifacts:
         path: preview
+    - run:
+        name: Install can-npm-publish
+        command: sudo npm i -g can-npm-publish
     # Deployment
     - deploy:
-          command: |
-            if [[ "${CIRCLE_BRANCH}" =~ ^master$ ]]; then
+        name: Publish package
+        command: |
+          if can-npm-publish; then
               ./scripts/deploy.sh
-            fi
+          else
+              echo "skipped"
+          fi

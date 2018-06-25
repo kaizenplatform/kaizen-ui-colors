@@ -9,3 +9,5 @@ git add -A
 git commit -am "Auto build preview on ${CIRCLE_BUILD_NUM}" && git push -f origin gh-pages
 cd ../
 rm -rf preview-gh-pages
+
+npm publish
