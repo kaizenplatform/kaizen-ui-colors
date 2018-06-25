@@ -28,7 +28,7 @@ gem 'compass-kaizen-ui-colors', git: 'git@github.com:kaizenplatform/kaizen-ui-co
 ### Install with npm
 
 ```
-npm install kaizenplatform/kaizen-ui-colors
+npm install @kaizenplatform/kaizen-ui-colors
 ```
 
 ## Development
@@ -44,7 +44,7 @@ npm run compile
 First, install with npm.
 
 ```
-npm install kaizenplatform/kaizen-ui-colors
+npm install @kaizenplatform/kaizen-ui-colors
 ```
 
 Then, you can load the JSON data.
