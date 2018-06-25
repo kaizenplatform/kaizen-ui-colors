@@ -21,16 +21,6 @@
     "url": "git@github.com:kaizenplatform/kaizen-ui-colors.git"
   },
   "author": "Kaizen Platform <dev-team@kaizenplatform.com>",
-  "contributors": [
-    {
-      "name": "jmblog",
-      "email": "yjimbo@gmail.com"
-    },
-    {
-      "name": "t32k",
-      "email": "ijok.ijok@gmail.com"
-    }
-  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kaizenplatform/kaizen-ui-colors/issues"
@@ -38,5 +28,14 @@
   "homepage": "https://github.com/kaizenplatform/kaizen-ui-colors#readme",
   "devDependencies": {
     "typescript": "^2.4.2"
-  }
+  },
+  "files": [
+    "_kaizen-ui-colors.scss",
+    "kaizen-ui-colors.json",
+    "index.js",
+    "lib.js",
+    "lib.d.ts",
+    "src/**/*.js",
+    "src/**/*.d.ts"
+  ]
 }
